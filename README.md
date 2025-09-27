@@ -7,6 +7,11 @@ A high-performance code animation tool that transforms your source code into bea
 ![Performance](https://img.shields.io/badge/Performance-50x_Faster-orange)
 ![Rendering](https://img.shields.io/badge/Engine-Skia_GPU-red)
 
+## 📺 Demo Video
+
+[![Code Animation Studio Demo](https://img.youtube.com/vi/WReYB3yGmgg/maxresdefault.jpg)](https://www.youtube.com/watch?v=WReYB3yGmgg)
+*Click to watch the demo video on YouTube*
+
 ## ✨ Features
 
 ### 🚀 Blazing Fast Performance
