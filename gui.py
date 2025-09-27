@@ -13,7 +13,7 @@ import os
 import re
 
 # Modern renderer'ı import et
-from modern_renderer import ModernCodeRenderer, RenderConfig
+from render import ModernCodeRenderer, RenderConfig
 
 # Syntax highlighting için
 from pygments import highlight

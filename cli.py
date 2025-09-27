@@ -7,7 +7,7 @@ Modern Skia-based renderer ile yeniden yazılmış CLI
 import argparse
 import sys
 from pathlib import Path
-from modern_renderer import ModernCodeRenderer, RenderConfig
+from render import ModernCodeRenderer, RenderConfig
 
 
 def main():

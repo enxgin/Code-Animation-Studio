@@ -73,20 +73,12 @@ Required packages:
 - `Pygments` - Syntax highlighting
 - `tkinter` - GUI interface (usually pre-installed)
 
-### Quick Test
-
-```bash
-python quick_start.py
-```
-
-This will create a sample animation to verify installation.
-
 ## 🚀 Usage
 
 ### GUI Mode (Recommended)
 
 ```bash
-python gui_app.py
+python gui.py
 ```
 
 The GUI provides:
@@ -142,14 +134,14 @@ Rendering speed for 100 lines of code:
 
 ### Core Components
 
-#### `modern_renderer.py`
+#### `render.py`
 The heart of the application - GPU-accelerated rendering engine:
 - Skia-based drawing operations
 - Token-based syntax highlighting
 - Smooth scrolling algorithm
 - Frame generation pipeline
 
-#### `gui_app.py`
+#### `gui.py`
 Tkinter-based desktop application:
 - Interactive code editor
 - Real-time configuration
@@ -233,10 +225,9 @@ Themes are defined as dictionaries with color mappings:
 
 ```
 code-animation-studio/
-├── modern_renderer.py    # Core rendering engine
-├── gui_app.py           # GUI application
+├── render.py            # Core rendering engine
+├── gui.py               # GUI application
 ├── cli.py               # CLI interface
-├── quick_start.py       # Test script
 ├── requirements.txt     # Dependencies
 ├── CLAUDE.md           # AI assistant instructions
 └── README.md           # This file
@@ -250,7 +241,7 @@ code-animation-studio/
 
 ### Adding New Themes
 
-Add your theme to the `THEMES` dictionary in `modern_renderer.py`:
+Add your theme to the `THEMES` dictionary in `render.py`:
 
 ```python
 THEMES["my_theme"] = {
