@@ -1,0 +1,9 @@
+# Code Animation Studio - Requirements
+
+# Core Dependencies
+skia-python>=87.0        # GPU-accelerated graphics rendering
+numpy>=1.21.0            # Array operations
+opencv-python>=4.5.0     # Video encoding
+pygments>=2.10.0         # Syntax highlighting for 150+ languages
+
+# Note: tkinter comes pre-installed with Python (GUI interface)
