@@ -13,7 +13,7 @@ GPU-accelerated code animation tool that transforms source code into typing anim
 
 ## 📸 Screenshot
 
-![Code Animation Studio GUI](https://iili.io/K1eShhX.md.png)
+![Code Animation Studio GUI](https://iili.io/K1eShhX.png)
 
 ## Features
 
